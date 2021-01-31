@@ -7,14 +7,26 @@ h1 {
   margin: 40px;
 }
 
+p {
+  text-align: center;
+}
+
+label {
+  padding-top: 20px;
+}
+
 button {
   margin: 20px;
 }
 
-.rubyShow {
+#rubyResult {
   display: none;
 }
 
-.javascriptShow {
+#javascriptResult {
+  display: none;
+}
+
+#pythonResult {
   display: none;
 }

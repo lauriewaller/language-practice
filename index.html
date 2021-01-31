@@ -10,25 +10,38 @@
 <body>
   <div class="container">
     <h1>Learn Your Programming Language!</h1>
+    <p>Choose your favorite answer to each question and then hit the "Tell me my language!" button below!</p>
     <div class="form-group">
       <form id="form-programming">
-        <label>Which color is your favorite?</label>
+        <label>Which color would you rather paint your bedroom?</label>
         <select class="form-control" id="question1">
-          <option class="ruby">Aqua</option>
-          <option class="javascript">Burgundy</option>
-          <option class="python">Purple</option>
+          <option>Peach</option>
+          <option>Gray</option>
+          <option>Burgundy</option>
         </select>
-        <label>Which color is your favorite?</label>
-        <select class="form-control" id="question1">
-          <option class="ruby">Aqua</option>
-          <option class="javascript">Burgundy</option>
-          <option class="python">Purple</option>
+        <label>Which animal would you rather own?</label>
+        <select class="form-control" id="question2">
+          <option>Parrot</option>
+          <option>Kangaroo</option>
+          <option>Tiger</option>
         </select>
-        <label>Which color is your favorite?</label>
-        <select class="form-control" id="question1">
-          <option class="ruby">Aqua</option>
-          <option class="javascript">Burgundy</option>
-          <option class="python">Purple</option>
+        <label>Which city would you rather visit?</label>
+        <select class="form-control" id="question3">
+          <option>Bucharest</option>
+          <option>Tokyo</option>
+          <option>London</option>
+        </select>
+        <label>Which TV show would you rather binge?</label>
+        <select class="form-control" id="question4">
+          <option>Madam Secretary</option>
+          <option>Community</option>
+          <option>Mythic Quest</option>
+        </select>
+        <label>Which state would you rather live in?</label>
+        <select class="form-control" id="question5">
+          <option>Montana</option>
+          <option>Colorado</option>
+          <option>Nevada</option>
         </select>
         <div class="d-flex justify-content-center">
         <button type="submit" class="btn btn-secondary">Tell me my language!</button>
@@ -36,22 +49,18 @@
       </form>
     </div>
 
-    <div class="rubyShow">
+    <div id="rubyResult">
       <h2>Your programming language is Ruby!</h2>
     </div>
 
-    <div class="javascriptShow">
-      <h2>Your programming language is Ruby!</h2>
+    <div id="javascriptResult">
+      <h2>Your programming language is JavaScript!</h2>
+    </div>
+
+    <div id="pythonResult">
+      <h2>Your programming language is Python!</h2>
     </div>
 
   </div>
 </body>
 </html>
-
-
-<!--
-each answer needs a class that will show the corresponding class 
-
-
-
--->
