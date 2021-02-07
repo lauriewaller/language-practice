@@ -30,3 +30,7 @@ button {
 #pythonResult {
   display: none;
 }
+
+#noResult {
+  display: none;
+}

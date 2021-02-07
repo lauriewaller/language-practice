@@ -12,6 +12,8 @@ $(document).ready(function() {
       $("#javascriptResult").show();
     } else if (answer1 === "Peach" && answer2 === "Parrot" && answer3 === "Bucharest" && answer4 === "Madam Secretary" && answer5 === "Montana") {
       $("#rubyResult").show();
+    } else {
+      $("#noResult").show();
     }
 
     event.preventDefault();
@@ -19,27 +21,3 @@ $(document).ready(function() {
 });
 
 
-/*
-$(document).ready(function() {
-  $("form#insurance").submit(function(event) {
-    const age = parseInt($("input#age").val());
-    const gender = $("select#gender").val();
-
-    const quote = (100 - age) * 3;
-
-    $("#rate").text(quote);
-    $("#quote").show();
-
-    event.preventDefault();
-  });
-});
-
-
-
-//$("select#gender").val();
-const gender = $("select#gender").val();
-
-if this question === this and this question === this
-
-show this 
-*/
